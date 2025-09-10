@@ -1,0 +1,37 @@
+---
+const personalImageAlt = "Tatiana Mezzano"
+---
+
+<div class="w-full border-t border-[#ffffff10]">
+    <section id="about-me" class="mt-20 mb-20 py-12 p-0 max-w-5xl mx-auto">
+
+        <h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-3">
+            Sobre mi
+        </h3>
+        <article class="flex flex-col items-center justify-center gap-8 md:flex-row text-[var(--white)]">
+            
+            <div class="text-lg md:text-l ">
+                <p>
+                    Me llamo Tatiana Mezzano. Soy desarrolladora web, tester QA y analista GeneXus. Desde muy chica me interesé por la ciencia y la tecnología, lo que me llevó a construir una carrera enfocada en el desarrollo de software y la mejora continua de productos digitales.
+                </p>
+
+                <p>
+                    Actualmente trabajo como analista GeneXus en una empresa especializada en soluciones ERP, donde participo en el desarrollo y mantenimiento del sistema.
+                </p>
+
+                <p>
+                    Además, me especializo en el desarrollo de interfaces web modernas, combinando diseño, funcionalidad y rendimiento.
+                </p>
+
+            </div>
+
+            <img 
+                width="200" 
+                height="200" 
+                src="/me.jpg" 
+                alt={personalImageAlt} 
+                class="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 ring-1 ring-white/70" 
+                style="object-position: 50% 50%">
+        </article>
+    </section>
+</div>
